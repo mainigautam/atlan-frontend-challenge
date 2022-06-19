@@ -1,0 +1,51 @@
+.nav-container{
+    z-index: 999;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color:#2026d2;
+    position: absolute;
+    top:0px;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.fa-play{
+    color: #2ecc71;
+}
+.nav-btn-ham{
+    margin: auto 5px; 
+    padding: 8px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+}
+.nav-btn-ham:hover,.nav-btn-ctrl:hover{
+    border: 1px solid rgba(255, 255, 255, 0.448);
+    cursor: pointer;
+    color: #2026d2;
+    background-color: #fff;
+}
+.nav-controls{
+    display: flex;
+    margin: auto 0px auto auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    color: white;
+    height: 100%;
+    width: fit-content;
+}
+.nav-btn-ctrl{
+    margin: auto 5px;
+    padding: 8px;
+    display: flex;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav-btn-icons{
+    margin: auto 5px auto 5px;
+}
